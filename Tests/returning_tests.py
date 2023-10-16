@@ -1,12 +1,13 @@
 import unittest
-import return_addtion
-import triangle_area
+import assignment_three
+
+
 
 class MyTestCase(unittest.TestCase):
 
-    def test_return_addtion(self):
+    def test_assignment_three(self):
 
-        self.assertEqual(15, return_addtion.add_two(7, 8))
+        self.assertEqual(15, return_addtion.add_two(3, 4, 2))
         self.assertEqual(45, return_addtion.add_two(40, 5))
         # Add two more tests of your own below here
 
